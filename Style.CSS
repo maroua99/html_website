@@ -10,3 +10,9 @@ h1
 {
     color: #329de4;
 }
+.test p{
+    color: blueviolet;
+ }
+ .test #idtest h1{
+     color: rgb(15, 65, 0);
+ }
