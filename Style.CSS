@@ -1,14 +1,42 @@
+/*change color to all elements*/
+a:hover {
+    color: #22afc2;
+}
+/*changement de style de list*/
+ul{
+    display: flex;
+    float: right;
+    list-style: none;
+margin-top: 13px;
+margin-right: 50px;
+}
+/*changement de style d'element de la list*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+  }
+
+header{
+    background-color:rgba(36,36,36,255);
+    padding: auto;
+}
 
 body{
         
-    background-color:rgb(3, 15, 53);
+    background-color: blanchedalmond;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
 }
 p{
-    color: #329de4;
+    color: #000000;
 }
 h1
 {
-    color: #329de4;
+    color: #107583;
 }
 .test p{
     color: blueviolet;
