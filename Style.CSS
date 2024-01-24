@@ -23,7 +23,13 @@ header{
     background-color:rgba(36,36,36,255);
     padding: auto;
 }
+p{color: white;}
+h1{color: white; text-align: center;}
 
+section{
+    background-image: url("pexels-emocionaligencia-inteligencia-emocional-1474993.jpg");
+    padding: 50px;
+}
 body{
         
     background-color: blanchedalmond;
@@ -31,13 +37,7 @@ body{
     margin-right: 0cm;
     margin-top: 0cm;
 }
-p{
-    color: #000000;
-}
-h1
-{
-    color: #107583;
-}
+
 .test p{
     color: blueviolet;
  }
