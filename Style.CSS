@@ -1,46 +1,50 @@
 /*change color to all elements*/
 a:hover {
-    color: #22afc2;
+  color: #22afc2;
 }
 /*changement de style de list*/
-ul{
-    display: flex;
-    float: right;
-    list-style: none;
-margin-top: 13px;
-margin-right: 50px;
+ul {
+  display: flex;
+  float: right;
+  list-style: none;
+  margin-right: 50px;
 }
 /*changement de style d'element de la list*/
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    margin: 30px;
-    text-decoration: none;
-  }
-
-header{
-    background-color:rgba(36,36,36,255);
-    padding: auto;
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 12px;
+  text-decoration: none;
+  font-family: "Futura Paneuropean Bold", sans-serif;
 }
-p{color: white;}
-h1{color: white; text-align: center;}
 
-section{
-    background-image: url("pexels-emocionaligencia-inteligencia-emocional-1474993.jpg");
-    padding: 50px;
+header {
+    background-color: rgba(36, 36, 36, 255);
+}
+h1 {
+  font-family: "Futura Paneuropean Bold", sans-serif;
+  font-size: 50px;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+#section1 {
+  background-image: url("test.jpg");
+  padding: 150px;
+  color: white;
+}
+#section2{
+    background-color: white;
+    color: black;
+    padding: 150px;
 }
 body{
-        
-    background-color: blanchedalmond;
-    margin-left: 0cm;
-    margin-right: 0cm;
-    margin-top: 0cm;
+    background-color: black;
 }
 
-.test p{
-    color: blueviolet;
- }
- .test #idtest h1{
-     color: rgb(15, 65, 0);
- }
+
+/* Nos Services*/
+section
