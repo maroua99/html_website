@@ -3,7 +3,7 @@ a:hover {
   color: #22afc2;
 }
 /*changement de style de list*/
-ul {
+#header {
   display: flex;
   float: right;
   list-style: none;
@@ -26,25 +26,77 @@ h1 {
   font-family: "Futura Paneuropean Bold", sans-serif;
   font-size: 50px;
 }
-p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 30px;
-}
 
-#section1 {
+/*sections Acceuil*/
+#section1acceuil {
   background-image: url("test.jpg");
   padding: 150px;
   color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
-#section2{
+#section2acceuil {
     background-color: white;
     color: black;
     padding: 150px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
 body{
     background-color: black;
 }
 
 
-/* Nos Services*/
-section
+/* Section Nos Services*/
+h2{
+  font-family: "Futura Paneuropean Bold", sans-serif;
+  font-size: 30px;
+}
+
+#section1_nos_services {
+  display: flex;
+  list-style: none;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 200px;
+}
+#section2_nos_service{
+  display: flex;
+  list-style: none;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 200px;
+}
+
+/* Experience */
+
+#section1_experience{
+  text-align: center;
+}
+
+#section2_experience{
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+/* Section Sign in*/
+form{
+  color: white;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url(background_experience.jpg);
+text-align: center;
+margin-top: 100px;
+margin-left: 400px;
+margin-right: 400px;
+margin-bottom: 100px;
+padding: 70px;
+}
+
+
+
